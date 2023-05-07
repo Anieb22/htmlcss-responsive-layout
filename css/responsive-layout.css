@@ -45,6 +45,23 @@ img {
     display: block;
 }
 
+h2 {
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+.cl-white {
+    color: white;
+}
+
+.cl-purple {
+    color: var(--purple);
+}
 
 /*HEADER*/
 header li{
@@ -176,6 +193,40 @@ main .btn {
     background-color:#0084FD;
 }
 
+/*PLANNING*/
+
+.bg-white {
+    background-color: #fff;
+}
+
+.bg-purple {
+    background-color:#9792E4;
+}
+
+.circle-btn {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #9792E4;
+    text-align: center;
+    line-height: 50px;
+}
+
+.planning {
+    background-color: #9792E4;
+}
+
+.dev.card {
+    background-color: white;
+    border-radius: 45px;
+    padding: 30px 20px;
+}
+
+.strategic.card p {
+    margin-bottom: 0;
+}
+
+
 /*TABLET*/
 @media screen and (min-width:768px){
 
@@ -252,5 +303,26 @@ main .btn {
     .big .content, .big .image {
         width: 50%;
     }
+
+    /*PIANI*/
+    .planning .card {
+        width: 48%;
+    }
+
+    .planning .cards {
+        width: 80%;
+        margin: auto;
+    }
+
+    .dev.card {
+        align-self: flex-end;
+        padding: 30px 45px;
+    }
+
+    .dev.card img {
+        width: 80%;
+        margin: 0 auto;
+    }
+
 
 }
