@@ -276,6 +276,21 @@ main .btn {
     background-image: url(../img/testimonial3.jpg);
 }
 
+/*SEZIONE BENEFICI*/
+
+.benefits {
+    background-color: #9792E4;
+}
+
+.benefits .card {
+    background-color: white;
+    border-radius: 20px;
+}
+
+.benefits p {
+    color: #5A6D7E;
+}
+
 
 /*TABLET*/
 @media screen and (min-width:768px){
@@ -292,7 +307,7 @@ main .btn {
         width: 66%;
     }
 
-    .testimonial .card .content {
+        .testimonial .card .content {
         width: calc(100% - 260px);
         display: flex;
         flex-direction: column;
@@ -305,7 +320,9 @@ main .btn {
         padding-bottom: 20px ;
     }
 
-
+    .benefits .card {
+        width: 48%;
+    }
 
 }
 
@@ -387,6 +404,19 @@ main .btn {
     .dev.card img {
         width: 80%;
         margin: 0 auto;
+    }
+
+    /*TESTIMONIALS*/
+    .testimonial p{
+        font-size: 19px;
+    }
+
+    .testimonial h2{
+        font-size: 45px;
+    }
+
+    .intro p {
+        font-size: 18px;
     }
 
 
