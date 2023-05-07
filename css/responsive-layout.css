@@ -11,6 +11,10 @@ body{
 
 /*UTILITY*/
 
+.padding20{
+    padding: 0 20px;
+}
+
 .container {
     max-width: 600px;
     margin: 0 auto;
@@ -335,7 +339,52 @@ main .btn {
     margin-bottom: 25px;
 }
 
+/*GET START*/
 
+.get-started {
+    background-color: #9792E4;
+    color: white
+}
+
+.get-started .free {
+    color: #FDC15F;
+    font-size: 55px;
+}
+
+.get-started h2 {
+    margin-bottom: 25px;
+}
+
+.get-started .title{
+    color: #D0CEF2;
+}
+
+.get-started .btn {
+    color: #9792E4;
+    font-size: 17px;
+    font-weight: 400;
+    padding: 10px 80px;
+    height: auto;
+    border-radius: 50px;
+    margin-bottom: 25px;
+}
+
+.get-started .privacy{
+    text-decoration: underline;
+}
+
+/*FOOTER*/
+footer {
+    background-color: black;
+    padding: 50px 30px;
+    font-size: 14px;
+    color: white;
+}
+
+footer a{
+    color: #9792E4;
+    text-decoration: none;
+}
 
 /*TABLET*/
 @media screen and (min-width:768px){
@@ -379,6 +428,10 @@ main .btn {
 
     .about-us .container {
         padding:0 20px;
+    }
+
+    .get-started .container {
+        max-width: 600px;
     }
 
 }
